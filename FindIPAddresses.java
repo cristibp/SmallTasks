@@ -33,7 +33,6 @@ class FindIPAddresses {
         Set<String> ips = new TreeSet();
         
         while(m.find()) {
-            //response.append(m.group()+"\n");
             ips.add(m.group());
         }
         for(String ip :  ips) {
